@@ -56,7 +56,6 @@ function App() {
   return (
     <div className="appContainer">
       <h1>Wordle Infinite</h1>
-      <p>{targetWord}</p>
       <Grid
         columns={5}
         rows={5}
